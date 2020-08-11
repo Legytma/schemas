@@ -41,7 +41,10 @@
       "$ref": "https://schema.legytma.com.br/2.0.0/schema/bool.schema.json",
       "default": true
     },
-    "cameraTargetBounds": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/camera_target_bounds.schema.json"},
+    "cameraTargetBounds": {
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/camera_target_bounds.schema.json",
+      "default": "unbounded"
+    },
     "circles": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/set_circle.schema.json"},
     "gestureRecognizers": {"$ref": "https://schema.legytma.com.br/2.0.0/schema/set_factory_one_sequence_gesture_recognizer.schema.json"},
     "indoorViewEnabled": {
