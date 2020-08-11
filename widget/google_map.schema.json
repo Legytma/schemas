@@ -90,6 +90,10 @@
     "zoomGesturesEnabled": {
       "$ref": "https://schema.legytma.com.br/2.0.0/schema/bool.schema.json",
       "default": true
+    },
+    "liteModeEnabled": {
+      "$ref": "https://schema.legytma.com.br/2.0.0/schema/bool.schema.json",
+      "default": false
     }
   },
   "required": ["initialCameraPosition"]
